@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_sell"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.mossosouk.app.SellActivity"
+    tools:showIn="@layout/activity_sell">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/inputs">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@android:drawable/progress_horizontal"
+                android:id="@+id/addImage" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear1"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <TextView
+                    android:text="Etat"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etatText"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:textColor="#000000"/>
+                <Spinner
+                    android:id="@+id/etatSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </Spinner>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear2"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <TextView
+                    android:text="Catégorie"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/categorieText"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:textColor="#000000"/>
+                <Spinner
+                    android:id="@+id/categorieSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </Spinner>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear3"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <TextView
+                    android:text="Titre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/titreText"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:textColor="#000000"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:hint="Le nom du produit..."
+                    android:ems="10"
+                    android:id="@+id/titreEdit"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear4"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <TextView
+                    android:text="Quantité"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/qteText"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:textColor="#000000"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:hint="La quantité ici..."
+                    android:ems="10"
+                    android:id="@+id/qteEdit"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear5"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <TextView
+                    android:text="Description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/descText"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:hint="Les détails sur le produit..."
+                    android:lines="8"
+                    android:maxLines="10"
+                    android:minLines="6"
+                    android:ems="10"
+                    android:id="@+id/descEdit"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear6"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <TextView
+                    android:text="Prix unitaire"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/prixText"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:hint="Le prix ici..."
+                    android:ems="10"
+                    android:id="@+id/prixEdit"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+                <TextView
+                    android:id="@+id/voirCommission"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Voir les commissions de Mossosouk"
+                    android:textColor="#079dfc"
+                    android:padding="15dp"
+                    android:textStyle="normal|bold"
+                    android:layout_gravity="center_horizontal"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/vendreBtn"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Vendre"
+                android:textColor="@android:color/white"
+                android:padding="15dp"
+                android:textStyle="normal|bold"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/colorPrimary"
+                android:backgroundTintMode="multiply"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

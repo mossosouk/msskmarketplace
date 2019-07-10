@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:id="@+id/avatarProfile"
+                android:src="@drawable/maincart"
+                android:layout_margin="16dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"/>
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_below="@id/avatarProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginEnd="17dp"
+                android:layout_alignParentLeft="true"
+                android:padding="10dp"
+                android:hint="Votre Nom"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:drawableStart="@drawable/login"
+                android:drawableLeft="@drawable/login"
+                android:background="@drawable/inputs"/>
+
+            <LinearLayout
+                android:id="@+id/linear_phone_num"
+                android:layout_below="@id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="17dp"
+                android:layout_marginEnd="17dp"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/country_code_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+235"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:background="@drawable/inputs"/>
+
+                <EditText
+                    android:id="@+id/phoneNum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:padding="10dp"
+                    android:hint="Numéro de téléphone"
+                    android:textAlignment="center"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/inputs"
+                    android:layout_marginLeft="5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearTerms"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/linear_phone_num"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/termsCheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/termsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="J'accepte les termes et conditions de Mossosouk.com"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+            <!--<EditText
+                android:id="@+id/verif_code"
+                android:layout_below="@id/linearTerms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginEnd="17dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentLeft="true"
+                android:padding="10dp"
+                android:hint="Le code de vérification ici ..."
+                android:textAlignment="center"
+                android:drawableStart="@drawable/password"
+                android:drawableLeft="@drawable/password"
+                android:background="@drawable/inputs"
+                android:visibility="invisible"/>-->
+
+            <!--<TextView
+                android:id="@+id/verif_code_text_msg"
+                android:layout_below="@+id/verif_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Un code de vérification vous est envoyé. Cela pourrait prendre plus de temps que prévus. Dans le cas contraire ressayez à nouveau."
+                android:textSize="13sp"
+                android:textColor="#000"
+                android:visibility="invisible"/>-->
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/signInBtn"
+                android:layout_below="@+id/verif_code_text_msg"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="S'inscrire"
+                android:textColor="@android:color/white"
+                android:padding="15dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="normal|bold"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/colorPrimary"
+                android:backgroundTintMode="multiply" />
+
+            <ProgressBar
+                android:id="@+id/loginprogressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+
+                />
+
+            <!--<android.support.v7.widget.AppCompatButton
+                android:id="@+id/verifyButton"
+                android:layout_below="@+id/signInBtn"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Vérifier"
+                android:textColor="@android:color/white"
+                android:padding="15dp"
+                android:layout_marginTop="1dp"
+                android:textStyle="normal|bold"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/colorPrimary"
+                android:backgroundTintMode="multiply"
+                android:visibility="invisible"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/tryAgainButton"
+                android:layout_below="@+id/verifyButton"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Réessayer"
+                android:textColor="@android:color/white"
+                android:padding="15dp"
+                android:layout_marginTop="1dp"
+                android:textStyle="normal|bold"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/colorPrimary"
+                android:backgroundTintMode="multiply"
+                android:visibility="invisible"/>-->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.mossosouk.app.DetailsActivity"
+    tools:showIn="@layout/activity_details">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/progress_horizontal"
+                android:id="@+id/imageDesc"
+
+                />
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:id="@+id/progressbarImg"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:id="@+id/details_title"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:id="@+id/details_desc"
+                android:textSize="14sp"
+                android:padding="15dp"/>
+
+            <LinearLayout
+                android:id="@+id/linearVendeur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nom du vendeur:"
+                    android:textAlignment="textStart"
+                    android:layout_gravity="start"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:padding="10dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/details_seller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vendeur"
+                    android:textColor="#079dfe"
+                    android:textAlignment="textStart"
+                    android:layout_gravity="start"
+                    android:textSize="12sp"
+                    android:textStyle="bold|italic"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="N/A"
+                    android:textStyle="bold|italic"
+                    android:textSize="12sp"
+                    android:textAlignment="textEnd"
+                    android:layout_gravity="end"
+                    android:padding="15dp"
+                    android:id="@+id/details_price"/>
+
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/acheter"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Acheter"
+                android:textColor="@android:color/white"
+                android:padding="15dp"
+                android:textStyle="normal|bold"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/colorPrimary"
+                android:backgroundTintMode="multiply"
+                 />
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/suppimerBtn"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Supprimer"
+                android:textColor="@android:color/white"
+                android:padding="15dp"
+                android:textStyle="normal|bold"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/colorPrimary"
+                android:backgroundTintMode="multiply"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

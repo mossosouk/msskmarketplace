@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1056759579400",
+    "firebase_url": "https://mossosouk-marketplace.firebaseio.com",
+    "project_id": "mossosouk-marketplace",
+    "storage_bucket": "mossosouk-marketplace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056759579400:android:ee5c5d8351b15504",
+        "android_client_info": {
+          "package_name": "com.mossosouk.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056759579400-802s8lqkorsnifuv48uitocu2eicm42d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mossosouk.app",
+            "certificate_hash": "031b88087f2cc69cf5c2c11490fc21bdbed8029b"
+          }
+        },
+        {
+          "client_id": "1056759579400-jc7r78os2cukgnc4u6ohbdgg3ovpujnf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mossosouk.app",
+            "certificate_hash": "231d20736aada0bc057a8038b76816c0b31e10d0"
+          }
+        },
+        {
+          "client_id": "1056759579400-l1jrufsvipr1mnmuua5bhv4s2qhe7nno.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9pOLpC9n4mnRq6PB6ei8XXUyA40CfyPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056759579400-l1jrufsvipr1mnmuua5bhv4s2qhe7nno.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

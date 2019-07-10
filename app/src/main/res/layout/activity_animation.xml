@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_animation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".AnimationActivity">
+
+    <ImageView
+        android:id="@+id/maincart"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/maincart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/logo"
+        android:src="@drawable/logomssk"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_below="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ce que vous cherchez...\n ...est entrain de vous chercher"
+        android:textColor="#0097fc"
+        android:textSize="18sp"
+        android:textStyle="italic|bold"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

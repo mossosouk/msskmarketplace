@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item android:title="Panier" android:icon="@drawable/whitecart" android:id="@id/panier" app:showAsAction="always" />-->
+    <item android:title="Dashboard des Commandes" android:icon="@drawable/dashboard" android:id="@+id/dashboard" app:showAsAction="ifRoom|collapseActionView"  />
+    <item android:title="Rechercher" android:icon="@drawable/magnify" android:id="@+id/rechercher" app:showAsAction="ifRoom|collapseActionView"  />
+</menu>

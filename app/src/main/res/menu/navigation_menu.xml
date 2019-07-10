@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Produits Récents"
+            android:id="@+id/home"
+            android:icon="@drawable/home" />
+
+        <item android:title="Immobilier"
+            android:id="@+id/immobilier"
+            android:icon="@drawable/immob" />
+
+        <item android:title="Image-Son"
+            android:id="@+id/imageson"
+            android:icon="@drawable/television" />
+
+        <item android:title="Informatique"
+            android:id="@+id/informatique"
+            android:icon="@drawable/laptop" />
+
+        <item android:title="Téléphonie"
+            android:id="@+id/telephonie"
+            android:icon="@drawable/cellphone" />
+
+        <item android:title="Emploi-Stage"
+            android:id="@+id/emploi"
+            android:icon="@drawable/emploi" />
+
+        <item android:title="Véhicule-Groupe"
+            android:id="@+id/vehicule"
+            android:icon="@drawable/car" />
+
+        <item android:title="Electroménager"
+            android:id="@+id/electromenager"
+            android:icon="@drawable/electromenager" />
+
+        <item android:title="Mobilier"
+            android:id="@+id/mobilier"
+            android:icon="@drawable/mobilier" />
+
+        <item android:title="Evènements"
+            android:id="@+id/evenement"
+            android:icon="@drawable/evenement" />
+
+        <item android:title="Mode"
+            android:id="@+id/mode"
+            android:icon="@drawable/tshirt" />
+
+        <item android:title="Opportunités"
+            android:id="@+id/opp"
+            android:icon="@drawable/airplane" />
+
+        <item android:title="Santé-Beauté"
+            android:id="@+id/sante"
+            android:icon="@drawable/sante" />
+
+        <item android:title="Aliments-Boissons"
+            android:id="@+id/aliment"
+            android:icon="@drawable/fastfood" />
+
+        <item android:title="Livres-Loisirs"
+            android:id="@+id/livre"
+            android:icon="@drawable/book" />
+
+    </group>
+
+    <item android:title="Aide">
+
+        <menu>
+            <item android:title="FAQ"
+                android:id="@+id/faq"
+                android:icon="@drawable/faq"/>
+
+            <item android:title="A propos"
+                android:id="@+id/about"
+                android:icon="@drawable/ic_error_outline_black_24dp" />
+
+            <item android:title="Règlements et Conditions"
+                android:id="@+id/reglement"
+                android:icon="@drawable/reglement"/>
+        </menu>
+
+    </item>
+
+</menu>

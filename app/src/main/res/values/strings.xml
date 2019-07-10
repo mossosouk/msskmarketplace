@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mossosouk Marketplace</string>
+    <string name="my_image">my image</string>
+    <string name="open_drawer">Open Navigation Drawer</string>
+    <string name="close_drawer">Close Navigation Drawer</string>
+    <string name="title_activity_details">Produit</string>
+    <string name="title_activity_sell">Formulaire de vente</string>
+    <string name="title_activity_buy">Formulaire de commande</string>
+    <string name="title_activity_faq">FAQ</string>
+    <string name="title_activity_about">A propos</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_user_profile">Profil du vendeur</string>
+    <string name="title_activity_terms_and_conditions">Règlements et Conditions</string>
+    <string name="title_activity_commission">Détails sur les commissions</string>
+
+</resources>

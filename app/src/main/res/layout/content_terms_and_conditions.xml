@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_terms_and_conditions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.mossosouk.app.TermsAndConditionsActivity"
+    tools:showIn="@layout/activity_terms_and_conditions">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:text="Règlements et conditions d'utilisation"
+                android:textSize="22dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:text="Mossosouk.com est une plateforme web et mobile regroupant les annonces de tout type et de toute catégorie sur l'ensemble du térritoires tchadiens. Elle est offerte par Mossosouk.com SARL (Société Anonyme à Responsabilité Limitée), N'djaména, Tchad."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Règlement de publication:"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:text="Si une annonce est refusée pour non respect du règlement, il sera proposé à l'annonceur de la modifier. Mossosouk.com se réserve le droit de juger de la conformité d'une annonce au règlement et à l'esprit du site. Le règlement est susceptible d'être modifié et peut être réactualisé en permanence. \n\nDoublons : Il est interdit de publier plusieurs annonces pour un même article, service ou emploi. Supprimez l'ancienne annonce avant de publier la nouvelle. De même, il est interdit de publier des annonces pour un même article, service ou emploi sous différentes catégories ou dans différentes régions. \n\nTexte de l'annonce : Le titre de l'annonce doit décrire l'article ou le service proposé. Il ne doit contenir ni un nom d'entreprise ni une URL (adresse Web). Aucun caractère inutile n'est autorisé dans le titre. Mossosouk.com se réserve le droit de modifier le titre d'une annonce pour qu'il soit conforme au règlement. L'article ou le service doit être décrit dans le texte de l'annonce. Il est interdit de proposer simplement un lien vers une autre page. \n\nCatégories : L'annonce doit être placée dans la catégorie décrivant le mieux l'article ou le service. Le cas échéant, Mossosouk.com peut la déplacer dans la catégorie correspondante. Les biens et services n'appartenant pas à la même catégorie doivent être proposés dans des annonces séparées.\n\nPhotos: Les photos incluses dans l'annonce doivent correspondre à l'article ou au service proposé. Il est interdit d'utiliser les logos de marques comme photo sauf dans les catégories 'Service-Entreprise' et 'Emploi-Stage'. Il est interdit d'utiliser les photos d'autres annonceurs sans leur consentement. Ces photos sont protégées par droit d'auteur. Les photos de mannequins montrant des sous-vêtements ou des maillots de bain sont interdites.\n\nArticles illégaux: Les annonces proposant des articles interdits à la vente de par la législation en vigueur au Tchad sont interdites.\n\nContenu injurieux: Les annonces ou photos pouvant être perçues comme une insulte envers des individus, des groupes ethniques ou des personnalités sont interdites.\n\nOffres non réalistes: Les offres non réalistes ne sont pas autorisées. Mossosouk.com se réserve le droit de juger de ce qui n'est pas réaliste."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Responsabilités:"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Les annonceurs/utilisateurs reconnaissent que le contenu, y compris les textes, images, publié sur Mossosouk.com est exact et conforme aux lois en vigueur. Mossosouk.com SARL n'assume aucune responsabilité quant à toute illicéité ou toute erreur relative au Contenu, y compris n’importe quelle nature de biens, services ou offres d'emploi annoncées sur le site.\n\nL'annonceur/utilisateur convient que son Contenu ne viole aucun droit d'auteur, droits de la propriété intellectuelle ou d'autres droits de toute personne ou entité. Les annonceurs/utilisateurs acceptent de libérer Mossosouk.com SARL de toute obligation, responsabilité et demande découlant ou en relation avec l’utilisation de ou l’impossibilité d’utiliser le service, sous n’importe quelle théorie de responsabilité ou n’importe quel fondement juridique, y compris les dommages et les coûts.\n\nLes annonceurs acceptent que leur Contenu puisse être présenté à travers les sites partenaires de Mossosouk.com conformément aux mêmes conditions générales d’utilisation que Mossosouk.com.\n\nMossosouk.com et Mossosouk.com SARL ne saurait être tenue responsable de l'utilisation de la plateforme et renonce à toute responsabilité pour toute perte, préjudice, responsabilité, ou dommage de toute nature résultant de, découlant de ou relatif à: (a) Des erreurs ou omissions afférentes au Mossosouk.com et au Contenu, y compris et sans limitation aux inexactitudes techniques ou aux erreurs typographiques, (b) Des sites web de tiers ou de contenu directement ou indirectement accessible via les liens présents sur Mossosouk.com, (c) De l'indisponibilité de Mossosouk.com ou de tout élément de ce dernier, (d) De votre usage du Mossosouk.com, ou (e) De votre usage de tout équipement ou logiciel sur Mossosouk.com"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Copyright:"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Les annonceurs accordent à Mossosouk.com SARL, les droits perpétuelles, irrévocables, non-exclusives et sans redevance d’utiliser, reproduire, modifier, adapter, publier, traduire, créer d’autres oeuvres et de distribuer le Contenu ou l’incorporer à n'importe quelle forme, moyen ou technologie connue ou développée plus tard. "
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Sécurité et Images:"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Mossosouk.com se réserve le droit de changer le titre du Contenu, à des fins éditoriales. Mossosouk.com se réserve aussi le droit de ne pas publier des images qui n'ont aucun rapport avec le Contenu, ou des images ne respectant pas les règles de Mossosouk.com."
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Vie privée et confidentialité:"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/prive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Mossosouk.com SARL a le droit de coopérer avec les autorités dans le cas où le Contenu serait en infraction avec la réglementation en vigueur. L'identité des annonceurs ou des acheteurs peut être déterminée en tant que FSI par exemple. Les adresses IP peuvent être enregistrées afin d'assurer la conformité aux modalités et conditions afférentes à ce service. Pour les annonceurs situés à l'étranger, Mossosouk.com se réserve le droit d'ajouter les mention dans votre Contenu 'Avertissement: l'annonce a été placée à l’étranger'. Mossosouk.com se réserve le droit de rechercher toutes les voies de recours disponibles en matière de droit en cas de violation des conditions d’utilisation du site et notamment le droit de bloquer l'accès à Mossosouk.com et Mossosouk.com SARL et à ses fonctionnalités."
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Modification:"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Mossosouk.com SARL se réservent le droit de modifier les conditions générales d’utilisation du site à n'importe quel moment dans la mesure permise par la loi applicable. Toute modification entrera en vigueur immédiatement après sa publication sur Mossosouk.com. Vous êtes responsable de consulter régulièrement telles modifications et votre accès régulier ou utilisation de Mossosouk.com doit être considérée comme votre approbation des modalités et conditions modifiées."
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Juridiction:"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="Mossosouk.com opère sous la loi et les législations tchadiennes. Les annonceurs/utilisateurs conviennent que tout litige ou réclamation afférent à l'utilisation de Mossosouk.com sera de la compétence exclusive des tribunaux tchadiens."
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:text="Protocole Accord Transactionnel"
+                android:textSize="22dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:text="En préambule : \n L’activité principale de Mossousouk.com SARL étant essentiellement l’intermédiation commerciale via sa plateforme web et mobile avec un service de livraison, il convient de définir clairement la collaboration avec les vendeurs afin d’éviter d’inutiles recours contentieux. A cet effet, le présent protocole permettra aux parties de préserver leurs intérêts respectifs, garantir la bonne exécution des transactions commerciales et en cas de différend, envisager les différentes voies de recours en privilégiant le règlement à l’amiable. Aussi, il a été convenu et arrêté ce qui suit :
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:text="Article 1 : Objet du protocole"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:text="Le présent protocole a pour objet de définir de façon claire et précise les termes de la collaboration entre les parties afin d’éviter ou de réguler tout différend pouvant naître de ladite collaboration."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:text="Article 2 : Les obligations de Mossosouk.com SARL "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:text="Dans le cadre de l’intermédiation commerciale via la plateforme web et mobile, Mossosouk.com SARL s’engage à respecter les obligations suivantes :\n\n•Utiliser ses compétences techniques et commerciales pour accorder une grande visibilité aux produits du VENDEUR afin d’aboutir à une transaction commerciale dans les meilleurs délais possibles ;\n\n• Garantir la sécurité (au plan numérique) des transactions sur la plateforme depuis la commande, jusqu’ à la validation de l’opération commerciale en ligne ;\n\n• Assurer la livraison des produits commandés sur la plateforme dans un délai inférieur ou égal à 48H, sauf cas de forces majeures ;\n\n• Communiquer à l’acheteur les modalités du droit de rétractation que LE VENDEUR a stipulé concernant le ou les produits faisant objet de la transaction ;\n\n• Reverser au VENDEUR  le montant de la transaction après prélèvement de la commission;\n\n• Faciliter la communication entre LE VENDEUR et l’acheteur en cas de retour ou de rétractation dans le respect des modalités prédéfinies au début de la transaction, sans implication juridique ni financière de Mossousouk.com SARL en tant qu’intermédiaire.
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:text="Article 3 : Les obligations de LE VENDEUR "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:text="Dans le but d’assurer une bonne intermédiation commerciale via la plateforme Mossosouk.com, LE VENDEUR s’engage à respecter les obligations suivantes :\n\n• Offrir les produits de qualité conformément à la charte qualité de Mossousouk.com à des prix compétitifs par rapport à la tendance du marché avec une période garantie si possible afin de rassurer davantage l’acheteur;\n\n• Communiquer les modalités du droit de rétractation en précisant clairement le délai de retour, les conditions de remboursement, de remplacement du produit et de paiement des frais de retour ;\n\n• Prendre connaissance des frais de services de Mossosouk.com (commission sur la vente, frais de prise et traitement d’images et frais de livraison) à travers la grille tarifaire et marquer son accord définitif avant d’engager la collaboration ;\n\n• Accompagner le ou les produits à livrer de la facture portant le montant Total à payer par  l’acheteur (sans déduction de la commission sur la vente). Dans le cas échéant, autoriser Mossosouk.com SARL d’établir et de signer la facture au nom et pour le compte du VENDEUR;\n\n• Autoriser Mossosouk.com SARL à effectuer la transaction au nom et pour le compte du VENDEUR, et à prélever le montant correspondant à la commission sur la vente avant le reversement de la différence au VENDEUR ;\n\n• Confier l’exclusivité du service de livraison pour toutes les transactions effectuées via la plateforme à Mossosouk.com SARL qui facturera les frais de livraison à l’acheteur ;"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:text="Article 4 : Retour et rétractation "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:text="Etant donné que l'acheteur en ligne, a un droit de rétractation à partir du lendemain où il entre en possession du produit, sans justification, ni paiement de pénalités de sa part ; il peut cependant être redevable des frais de retour. Ce droit de rétractation s'applique à tous produits mêmes les produits soldés, d'occasion ou en déstockage. \n\n Le remboursement de la totalité des sommes versées, y compris les frais de livraison, doit être fait dans le délai prédéfini par LE VENDEUR, à partir du moment où Mossosouk.com SARL est informé de la décision de l’acheteur de se rétracter. \n\n Pour le cas de retour du produit, LE VENDEUR est tenu de reprendre un article en cas de livraison non conforme à la commande ou défectueuse. L’acheteur doit le réexpédier dans son emballage d'origine, en indiquant le motif de refus sur le bon de livraison ou la facture, les frais étant à la charge  du VENDEUR, et peut exiger: \n\n• une nouvelle livraison respectant la commande, \n\n•la réparation du produit défectueux, \n\n•l'échange du produit par un autre similaire ; \n\n•l'annulation de la commande (avec remboursement des sommes versées avec éventuellement une demande de dommages et intérêts en cas de préjudice). \n\n L’acheteur doit payer uniquement les coûts directs de renvoi, sauf si Mossosouk.com SARL accepte de les prendre à sa charge ou s'il n'a pas informé l’acheteur que ces coûts sont à sa charge. \n\n Enfin, à condition que cela soit clairement signalé au moment de l'achat, certains produits spécifiques ne sont pas soumis au droit de rétractation et ne peuvent pas être remboursés.  "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:text="Article 5 : Règlement de litiges "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:text="Les parties conviennent d’un commun accord que la seule et unique voie de retour pour régler tous les différends dans le cadre de leur collaboration est le règlement à l’amiable. Cependant, en cas de persistance du désaccord, seuls les instances judiciaires compétentes du ressort territorial seront habilitées à connaitre l’affaire.  "/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:text="Article 6 : Durée et Résiliation "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:text="Le présent protocole d’accord est valable sur toute la durée de collaboration entre les parties. Cependant, le protocole peut être résilié par accord mutuel des deux parties  ou par l’une ou l’autre des parties, avec un préavis de 30jours transmis à l’autre partie, afin de prendre les dispositions nécessaires pour une bonne fin de collaboration. "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:text="Article 7 : Election de domicile "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:text="Pour l’exécution du présent protocole d’accord transactionnel, les parties font élection de domicile en  leurs sièges respectifs. "/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
