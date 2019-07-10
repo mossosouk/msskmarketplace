@@ -53,7 +53,7 @@ public class DashboardActivity extends AppCompatActivity {
 
         toolbar = (Toolbar) findViewById(R.id.dashboard_toolbar);
         setSupportActionBar(toolbar);
-        toolbar.setTitle("Dashboard des commandes");
+        toolbar.setTitle("Dashboard commandes");
 
         pb = (ProgressBar) findViewById(R.id.pb);
 
